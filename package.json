@@ -1,0 +1,28 @@
+{
+  "name": "fetch-manifest",
+  "description": "fetch W3C web app manifests",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cvan/fetch-manifest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cvan/fetch-manifest/issues"
+  },
+  "keywords": [
+    "manifest",
+    "manifests",
+    "webapp",
+    "webapps",
+    "web app",
+    "web apps"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cvan/fetch-manifest",
+  "author": "Chris Van",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "es6-promise": "^2.0.1",
+    "request": "^2.53.0"
+  }
+}

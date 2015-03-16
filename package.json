@@ -21,8 +21,20 @@
   "homepage": "https://github.com/cvan/fetch-manifest",
   "author": "Chris Van",
   "dependencies": {
+    "boom": "^2.6.1",
     "cheerio": "^0.18.0",
     "es6-promise": "^2.0.1",
+    "hapi": "^8.4.0",
+    "joi": "^6.0.8",
     "request": "^2.53.0"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7"
+  },
+  "scripts": {
+    "start": "NODE_ENVIRONMENT=production node app",
+    "dev": "NODE_ENVIRONMENT=dev nodemon app",
+    "prod": "NODE_ENVIRONMENT=production node app"
+  },
+  "main": "./app"
 }

@@ -31,10 +31,31 @@ Here's a basic example of how to use this library in your project:
 ```js
 var manifestFetch = require('manifest-fetch');
 
-fetchManifest('https://games.mozilla.org/gdc/').then(function (data) {
+fetchManifest.fetchManifest('https://games.mozilla.org/gdc/').then(function (data) {
   console.log(JSON.stringify(data, null, 2));
 }).catch(function (err) {
   console.error(JSON.stringify({error: err.message}, null, 2));
+});
+```
+
+To create an HTTP server (using [__hapi__](http://hapijs.com/)) that serves the fetched manifests:
+
+```js
+var manifestFetch = require('manifest-fetch');
+
+fetchManifest.createServer();
+```
+
+To attach the controller routes to an existing __hapi__ server:
+
+```js
+var Hapi = require('hapi');
+var manifestFetch = require('manifest-fetch');
+
+var myServer = new Hapi.server();
+
+fetchManifest.createServer({
+  server: myServer
 });
 ```
 

@@ -7,7 +7,7 @@ Fetch [W3C web app manifests](http://w3c.github.io/manifest/).
 
 * fetches manifests
 * replaces relative URLs in the manifest with absolute ones (i.e., `start_url`, `src` keys)
-
+* [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) headers on manifest responses
 
 ## Installation
 

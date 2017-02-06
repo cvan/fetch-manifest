@@ -1,7 +1,7 @@
 {
   "name": "fetch-manifest",
   "description": "fetch W3C web app manifests",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/cvan/fetch-manifest.git"

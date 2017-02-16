@@ -1,6 +1,6 @@
 {
   "name": "fetch-manifest",
-  "description": "fetch W3C web app manifests",
+  "description": "fetch W3C web-app manifests",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   "dependencies": {
     "boom": "^3.1.2",
     "cheerio": "^0.20.0",
-    "es6-promise": "^3.1.2",
+    "es6-promise": "^4.0.5",
     "hapi": "^13.3.0",
     "joi": "^8.0.5",
     "request": "^2.70.0"

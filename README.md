@@ -1,13 +1,13 @@
 # fetch-manifest
 
-Fetch [W3C web app manifests](http://w3c.github.io/manifest/).
+Fetch [W3C web-app manifests](http://w3c.github.io/manifest/).
 
 
 ## Features
 
-* fetches manifests
+* fetches [web-app manifests](http://w3c.github.io/manifest/)
 * replaces relative URLs in the manifest with absolute ones (i.e., `start_url`, `src` keys)
-* [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) headers on manifest responses
+* sets [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) headers on manifest responses
 
 ## Installation
 
@@ -62,6 +62,10 @@ fetchManifest.createServer({
 
 ## Development
 
+To clone this repo:
+
+  git clone git@github.com:cvan/fetch-manifest.git
+
 Serve the site from the simple server:
 
     npm run dev
@@ -92,7 +96,7 @@ To run the server à la Heroku:
 
 ## Licence
 
-[MIT Licence](LICENCE)
+[MIT Licence](LICENCE).
 
 
 ## Contributing

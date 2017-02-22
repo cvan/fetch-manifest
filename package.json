@@ -32,9 +32,9 @@
     "nodemon": "^1.9.1"
   },
   "scripts": {
-    "start": "NODE_ENVIRONMENT=production node app",
+    "start": "npm run prod",
     "dev": "NODE_ENVIRONMENT=dev nodemon app",
     "prod": "NODE_ENVIRONMENT=production node app"
   },
-  "main": "./app"
+  "main": "./app.js"
 }

@@ -1,0 +1,68 @@
+# Basic features wanted
+
+- attempt to fetch `${docURL}/manifest.json` as fallback manifest URL
+- attempt to fetch `${docURL}/manifest.webmanifest` as fallback manifest URL
+- attempt to fetch `${docURL}/manifest.webapp` as fallback manifest URL
+- attempt to fetch `/manifest.json` as fallback manifest URL
+- attempt to fetch `/manifest.webmanifest` as fallback manifest URL
+- attempt to fetch `/manifest.webapp` as fallback manifest URL
+- fetch `/contribute.json`
+- allow cache to be enabled (`?cache=1`)
+- add `/robots` endpoint
+- parse `ROBOTS.txt`
+- add `/humans` endpoint
+- parse `HUMANS.txt`
+- add `/contribute` endpoint
+- parse `contribute.json`
+- add `/manifest/validate` endpoint
+- add validation results
+- add `/manifest/bar` endpoint
+- get badges
+- get favicons
+- get icons
+- get screenshots
+- get best badges
+- get best favicons
+- get best icons
+- get best screenshots
+- handle `pwacompat`
+- add `/manifest/polyfill` endpoint
+- improve API endpoint validation
+- get `uri`, `document`, `manifest`, `document_url`, `manifest_url`, `document_uri`, `manifest_uri` parameters, as fallback
+- add `/json-ld` endpoint
+- add `/microdata` endpoint
+- add `/link-tags` endpoint
+- add `/meta-tags` endpoint
+- add `/head` endpoint
+- add `/favicons` endpoint
+- add `/icons` endpoint
+- add `/badges` endpoint
+- add `/screenshots` endpoint
+- get parameters from JSON body, as fallback
+- get parameters from URL (from splitting as substring), as fallback
+
+
+# Advanced features
+
+- add JS code linting (using `semistandard`)
+- add unit tests
+- add functional, end-to-end tests
+- check if `/favicon.ico` exists
+- parse `JSON-LD` (from external `<link>` tags)
+- parse Microdata from HTML
+- fetch `<link>` tags (including tags for stylesheets, RSS/Atom feeds, canonical URL, `preload`, `prefetch`, `dns-prefetch`, etc.)
+- use `url-parse` library (`window.URL` polyfill for Node) for URL parsing/resolving
+- do not require protocol for `url` parameter
+- prefer `https:` URLs (attempt to fetch first, even if URL with `http:` or not protocol provided)
+- add `POST` endpoints for `GET` endpoints
+- crawl manifest (from HTML generated from Lighthouse)
+- fetch all resources (from a HAR report generated from Lighthouse)
+- parse from `npm`
+- parse from `unpkg`
+- parse from GitHub
+- parse from GitLab
+- mirror, sync manifest to IPFS
+- mirror, sync images to IPFS
+- mirror, sync start_url to IPFS
+- add `/proxy` endpoint
+- proxy all resources (from IPFS cache, fallback to source)

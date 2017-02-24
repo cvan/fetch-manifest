@@ -1,11 +1,6 @@
 # Basic features wanted
 
-- attempt to fetch `${docURL}/manifest.json` as fallback manifest URL
-- attempt to fetch `${docURL}/manifest.webmanifest` as fallback manifest URL
-- attempt to fetch `${docURL}/manifest.webapp` as fallback manifest URL
-- attempt to fetch `/manifest.json` as fallback manifest URL
-- attempt to fetch `/manifest.webmanifest` as fallback manifest URL
-- attempt to fetch `/manifest.webapp` as fallback manifest URL
+- attempt to fetch `${originURL}/*` URLs as fallback manifest URLs
 - fetch `/contribute.json`
 - allow cache to be enabled (`?cache=1`)
 - add `/robots` endpoint

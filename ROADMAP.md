@@ -45,7 +45,9 @@
     - `vrAvailableDisplays` / `vr_available_displays`
     - `vrGamepadRequired` / `vr_gamepad_required`
     - `vrDefaultGamepad` / `vr_default_gamepad`
-    -
+    - `vrSupportedGamepads` / `vr_supported_gamepads`
+    - `vrFavicon` / `vr_favicon`
+- process canonical URL from `link[rel="canonical"]` tag (if tag is unavailable, generate the canonical URL)
 - add option to send to mobile device (via Twilio SMS)
 - add option to connect and send via Remote Debugging
 - create version as a browser extension

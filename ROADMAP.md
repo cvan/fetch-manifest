@@ -1,5 +1,7 @@
 # Basic features wanted
 
+- process `glTF` icon(s) (from `link[rel~="gltf-model"]`/`link[type*="gltf"]` tags and `icons` keys in manifest)
+- deploy API to server for free + public usage
 - attempt to fetch `${originURL}/*` URLs as fallback manifest URLs
 - fetch `/contribute.json`
 - allow cache to be enabled (`?cache=1`)
@@ -16,9 +18,9 @@
 - get favicons
 - get icons
 - get screenshots
-- get best badges
-- get best favicons
-- get best icons
+- improve getting best badges
+- improve getting best favicons
+- improve getting best icons
 - get best screenshots
 - handle `pwacompat`
 - add `/manifest/polyfill` endpoint
@@ -35,10 +37,39 @@
 - add `/screenshots` endpoint
 - get parameters from JSON body, as fallback
 - get parameters from URL (from splitting as substring), as fallback
+- add keyboard bindings (and add those from manifest and `manifest.json` for browser extensions)
+- render headset and gamepad options from `meta[name^="vr"]` tags and manifest `vr_*` values
+    - `vrDisplaySource` / `vr_display_source`
+    - `vrDisplayRequired` / `vr_display_required`
+    - `vrDefaultDisplay` / `vr_default_display`
+    - `vrAvailableDisplays` / `vr_available_displays`
+    - `vrGamepadRequired` / `vr_gamepad_required`
+    - `vrDefaultGamepad` / `vr_default_gamepad`
+    -
+- add option to send to mobile device (via Twilio SMS)
+- add option to connect and send via Remote Debugging
+- create version as a browser extension
+    - hide footer UI when installed as browser extension
+    - cache and use for manifest metadata
+    - cache and use display ID of currently presenting VR
+    - add option to Add to Homescreen/Applications/Desktop/Shelf using Native Messaging
+- allow submission of compat reports
+    - using REST API (`POST`)
+        - from WebVR Agent UI
+        - from within VR mode
+    - using Webcompat.com
+        - from WebVR Agent UI
+        - from within VR mode
+- add `/compat` endpoint
 
 
 # Advanced features
 
+- add voice commands using the Speech Recognition API (defined in manifest, and with defaults)
+- add voice commands using the Speech Synthesis API (defined in manifest, and with defaults)
+- allow REST API (`POST`) submission of voice notes (using the Speech Recognition API)
+    - from WebVR Agent UI
+    - from within VR mode
 - add JS code linting (using `semistandard`)
 - add unit tests
 - add functional, end-to-end tests

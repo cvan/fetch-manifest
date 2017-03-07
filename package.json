@@ -42,6 +42,9 @@
   "license": "MIT",
   "homepage": "https://github.com/cvan/fetch-manifest",
   "author": "Chris Van",
+  "engines": {
+    "node": "7.0.0"
+  },
   "dependencies": {
     "boom": "^4.2.0",
     "cheerio": "^0.22.0",

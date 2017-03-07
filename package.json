@@ -51,6 +51,7 @@
     "cross-env": "^3.2.3",
     "es6-promise": "^4.0.5",
     "hapi": "^16.1.0",
+    "inert": "^4.1.0",
     "joi": "^10.2.2",
     "request": "^2.80.0",
     "request-promise": "^4.1.1"

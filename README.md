@@ -1,6 +1,6 @@
 [<img src="https://raw.githubusercontent.com/cvan/fetch-manifest/master/public/img/logo.png" alt="FetchManifest" title="FetchManifest" width="200">](https://fetchmanifest.org/)
 
-# FetchManifest
+# [FetchManifest](https://fetchmanifest.org/)
 
 Fetch [W3C Web-App Manifests](http://w3c.github.io/manifest/).
 

@@ -1,4 +1,4 @@
-![Fetch Manifest](https://raw.githubusercontent.com/cvan/fetch-manifest/master/public/img/logo.png "Fetch Manifest")
+<img src="https://raw.githubusercontent.com/cvan/fetch-manifest/master/public/img/logo.png" alt="FetchManifest" title="FetchManifest" width="200">
 
 # FetchManifest
 

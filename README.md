@@ -2,7 +2,7 @@
 
 # [FetchManifest](https://fetchmanifest.org/)
 
-Fetch [W3C Web-App Manifests](http://w3c.github.io/manifest/).
+A nifty tool for fetching metadata from [W3C Web-App Manifests](http://w3c.github.io/manifest/).
 
 **[Try it out now!](https://fetchmanifest.org/)**
 

@@ -1,6 +1,6 @@
 {
   "name": "fetch-manifest",
-  "description": "Fetch W3C Web-App Manifests.",
+  "description": "A nifty tool for fetching metadata from W3C Web-App Manifests.",
   "version": "1.2.1",
   "main": "./app.js",
   "repository": {

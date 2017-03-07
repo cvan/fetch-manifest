@@ -1,8 +1,10 @@
-<img src="https://raw.githubusercontent.com/cvan/fetch-manifest/master/public/img/logo.png" alt="FetchManifest" title="FetchManifest" width="200">
+[<img src="https://raw.githubusercontent.com/cvan/fetch-manifest/master/public/img/logo.png" alt="FetchManifest" title="FetchManifest" width="200">](https://fetchmanifest.org/)
 
 # FetchManifest
 
 Fetch [W3C Web-App Manifests](http://w3c.github.io/manifest/).
+
+**[Try it out now!](https://fetchmanifest.org/)**
 
 
 ## Features
@@ -10,6 +12,7 @@ Fetch [W3C Web-App Manifests](http://w3c.github.io/manifest/).
 * fetches [web-app manifests](http://w3c.github.io/manifest/)
 * replaces relative URLs in the manifest with absolute ones (i.e., `start_url`, `src` keys)
 * sets [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) headers on manifest responses
+
 
 ## Installation
 

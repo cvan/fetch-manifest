@@ -99,29 +99,6 @@ body {
   padding: 3rem 0 4.5rem;
 }
 
-.command-logs {
-  border: 1px solid rgba(0,0,0,.25);
-  border-width: 1px 0;
-  color: #333;
-  font-family: monospace;
-  list-style: none;
-  padding: 2rem 0;
-}
-
-.command-logs li {
-  overflow-x: auto;
-}
-
-.command-logs:empty {
-  display: none;
-}
-
-.command-logs li + li {
-  border-top: 1px solid rgba(0,0,0,.25);
-  margin-top: 2rem;
-  padding-top: 2rem;
-}
-
 button,
 input,
 textarea,

@@ -1,0 +1,36 @@
+{
+  "name": "FetchManifest",
+  "short_name": "FetchManifest",
+  "description": "Fetch W3C Web-App Manifests.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./?src=manifest",
+  "scope": "./",
+  "display": "fullscreen",
+  "theme_color": "#177bdb",
+  "background_color": "#177bdb",
+  "icons": [
+    {
+      "src": "/img/logo.svg",
+      "sizes": "290x290",
+      "type": "image/svg"
+    },
+    {
+      "src": "/img/logo.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "density": "2"
+    },
+    {
+      "src": "/img/logo.webp",
+      "sizes": "256x256",
+      "type": "image/webp",
+      "density": "2"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48 64x64 256x256",
+      "type": "image/x-icon"
+    }
+  ]
+}

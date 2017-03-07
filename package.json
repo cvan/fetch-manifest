@@ -2,6 +2,7 @@
   "name": "fetch-manifest",
   "description": "fetch W3C web-app manifests",
   "version": "1.1.0",
+  "main": "./app.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/cvan/fetch-manifest.git"
@@ -12,29 +13,51 @@
   "keywords": [
     "manifest",
     "manifests",
+    "fetch-manifest",
+    "fetchmanifest",
+    "fetch-manifests",
+    "fetchmanifests",
+    "fetch",
+    "manifest-parser",
+    "manifestparser",
+    "manifest-parse",
+    "manifestparse",
+    "parse-manifest",
+    "parsemanifest",
+    "parse-manifests",
+    "parsemanifests",
     "webapp",
     "webapps",
     "web app",
-    "web apps"
+    "web apps",
+    "webapp manifest",
+    "web app manifest",
+    "web-app manifest",
+    "web-app-manifest",
+    "webapp manifests",
+    "web app manifests",
+    "web-app manifests",
+    "web-app-manifests"
   ],
   "license": "MIT",
   "homepage": "https://github.com/cvan/fetch-manifest",
   "author": "Chris Van",
   "dependencies": {
-    "boom": "^3.1.2",
-    "cheerio": "^0.20.0",
+    "boom": "^4.2.0",
+    "cheerio": "^0.22.0",
+    "cross-env": "^3.2.3",
     "es6-promise": "^4.0.5",
-    "hapi": "^13.3.0",
-    "joi": "^8.0.5",
-    "request": "^2.70.0"
+    "hapi": "^16.1.0",
+    "joi": "^10.2.2",
+    "request": "^2.80.0",
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.9.1"
+    "nodemon": "^1.11.0"
   },
   "scripts": {
-    "start": "npm run prod",
-    "dev": "NODE_ENVIRONMENT=dev nodemon app",
-    "prod": "NODE_ENVIRONMENT=production node app"
-  },
-  "main": "./app.js"
+    "start": "npm run dev",
+    "dev": "cross-env NODE_ENV='dev' nodemon app",
+    "prod": "cross-env NODE_ENV='production' node app"
+  }
 }

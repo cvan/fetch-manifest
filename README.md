@@ -31,7 +31,7 @@ Here's a basic example of how to use this library in your project:
 ```js
 var manifestFetch = require('manifest-fetch');
 
-fetchManifest.fetchManifest('https://games.mozilla.org/gdc/').then(function (data) {
+fetchManifest.fetchManifest('https://webvr.rocks/').then(function (data) {
   console.log(JSON.stringify(data, null, 2));
 }).catch(function (err) {
   console.error(JSON.stringify({error: err.message}, null, 2));
@@ -83,7 +83,7 @@ If you wish to serve the site from a different port:
 
 In production, the server is run like so:
 
-    NODE_ENVIRONMENT=production node index.js
+    NODE_ENV=production node ./app.js
 
 Alternatively:
 
@@ -94,11 +94,11 @@ To run the server à la Heroku:
     foreman start web
 
 
-## Licence
-
-[MIT Licence](LICENCE).
-
-
 ## Contributing
 
 [Contributions are very welcome!](CONTRIBUTING.md)
+
+
+## Licence
+
+[MIT Licence](LICENCE).

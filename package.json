@@ -43,7 +43,7 @@
   "homepage": "https://github.com/cvan/fetch-manifest",
   "author": "Chris Van",
   "engines": {
-    "node": "7.0.0"
+    "node": "7.x"
   },
   "dependencies": {
     "boom": "^4.2.0",

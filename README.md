@@ -1,6 +1,8 @@
+![Fetch Manifest](https://raw.githubusercontent.com/cvan/phantomHAR/master/images/logo.png "Fetch Manifest")
+
 # fetch-manifest
 
-Fetch [W3C web-app manifests](http://w3c.github.io/manifest/).
+Fetch [W3C Web-App Manifests](http://w3c.github.io/manifest/).
 
 
 ## Features

@@ -1,0 +1,18 @@
+{
+  "name": "Fetch Manifest",
+  "description": "Fetch W3C Web-App Manifests.",
+  "repository": "https://github.com/cvan/fetch-manifest",
+  "logo": "https://fetchmanifest.org/img/logo.svg",
+  "keywords": [
+    "node",
+    "hapi",
+    "api",
+    "manifest",
+    "manifests",
+    "fetch-manifest",
+    "fetch-manifests",
+    "fetchmanifest",
+    "fetchmanifests"
+  ],
+  "image": "heroku/nodejs"
+}

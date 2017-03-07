@@ -1,4 +1,10 @@
+*.*~
 *.log
 *.pid
+.*.swp
+.DS_Store*
+Thumbs.db
+ehthumbs.db
 logs
 node_modules
+settings_local*.js

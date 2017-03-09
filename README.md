@@ -18,15 +18,21 @@ A nifty tool for fetching metadata from [W3C Web-App Manifests](http://w3c.githu
 
 To install from npm:
 
-    npm install fetch-manifest
+```bash
+npm install fetch-manifest
+```
 
 To install the Node dependencies from the git repository:
 
-    npm install
+```bash
+npm install
+```
 
 Generate a local settings file:
 
-    cp settings_local.js{.dist,}
+```bash
+cp settings_local.js{.dist,}
+```
 
 
 ## Usage
@@ -69,34 +75,46 @@ fetchManifest.createServer({
 
 To clone this repo:
 
-    git clone git@github.com:cvan/fetch-manifest.git
+```bash
+git clone git@github.com:cvan/fetch-manifest.git
+```
 
 Serve the site from the simple server:
 
-    npm run dev
+```bash
+npm run dev
+```
 
-Then launch the site from your favourite browser:
+Then, launch the site from your favourite browser:
 
 [__http://localhost:3000/__](http://localhost:3000/)
 
 If you wish to serve the site from a different port:
 
-    FETCH_MANIFEST_PORT=8000 npm run dev
+```bash
+FETCH_MANIFEST_PORT=8000 npm run dev
+```
 
 
 ## Deployment
 
 In production, the server is run like so:
 
-    NODE_ENV=production node ./app.js
+```bash
+NODE_ENV=production node ./app.js
+```
 
 Alternatively:
 
-    npm run prod
+```bash
+npm run prod
+```
 
 To run the server à la Heroku:
 
-    foreman start web
+```bash
+foreman start web
+```
 
 
 ## Contributing

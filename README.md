@@ -69,7 +69,7 @@ fetchManifest.createServer({
 
 To clone this repo:
 
-  git clone git@github.com:cvan/fetch-manifest.git
+    git clone git@github.com:cvan/fetch-manifest.git
 
 Serve the site from the simple server:
 

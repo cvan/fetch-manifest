@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+[aria-hidden="true"] {
+  display: none !important;
+}
+
 .visually-hidden {
   height: 1px;
   overflow: hidden;
@@ -220,4 +224,67 @@ input[type="text"]:focus {
   /*box-shadow: inset 0 1px 2px rgba(27,31,35,.075), 0 0 0 .2em rgba(3,102,214,.3);*/
   box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 0 .2em rgba(255,255,255,.3);
   outline: none;
+}
+
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 32px;
+  stroke: currentColor;
+  stroke-width: 0;
+  width: 32px;
+  vertical-align: middle;
+}
+
+.icon-link .icon {
+  margin-right: 0;
+  opacity: .35;
+  transition: .15s opacity ease-in-out;
+  transform: scale(.5);
+  transform-origin: 0 14px;
+}
+
+.icon-link {
+  color: rgba(255,255,255,.6);
+  display: block;
+  font-size: .8rem;
+  text-decoration: none;
+  transition: .15s color ease-in-out;
+}
+
+.icon-link:hover {
+  color: rgba(255,255,255,.9);
+}
+
+.icon-link:hover .icon {
+  opacity: 1;
+}
+
+@media (min-width: 35em) and (min-height: 35em) {
+  body {
+    position: relative;
+  }
+
+  .site-footer {
+    border-top: rgba(255,255,255,.5) 2px solid;
+    bottom: 3rem;
+    left: 0;
+    padding-top: 1.5rem;
+    position: absolute;
+    right: 0;
+    margin: 1.5rem 3rem 0;
+    max-width: 60rem;
+  }
+  
+  .icon-link {
+    font-size: 1rem;
+  }
+
+  .icon-link:not(:first-child) {
+    padding-top: .25rem;
+  }
+
+  .icon-link + .icon-link {
+    padding-bottom: .25rem;
+  }
 }

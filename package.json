@@ -39,22 +39,22 @@
     "web-app manifests",
     "web-app-manifests"
   ],
-  "license": "MIT",
+  "license": "Creative Commons Zero v1.0 Universal",
   "homepage": "https://github.com/cvan/fetch-manifest",
   "author": "Chris Van",
   "engines": {
     "node": "7.x"
   },
   "dependencies": {
-    "boom": "^4.2.0",
+    "boom": "^4.3.0",
     "cheerio": "^0.22.0",
-    "cross-env": "^3.2.3",
-    "es6-promise": "^4.0.5",
+    "cross-env": "^3.2.4",
+    "es6-promise": "^4.1.0",
     "hapi": "^16.1.0",
     "inert": "^4.1.0",
-    "joi": "^10.2.2",
-    "request": "^2.80.0",
-    "request-promise": "^4.1.1"
+    "joi": "^10.3.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

@@ -53,6 +53,7 @@
     "hapi": "^16.1.0",
     "inert": "^4.1.0",
     "joi": "^10.2.2",
+    "mime-types": "^2.1.15",
     "request": "^2.80.0",
     "request-promise": "^4.1.1"
   },

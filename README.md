@@ -122,11 +122,11 @@ foreman start web
 [Contributions are very welcome!](CONTRIBUTING.md)
 
 
-## Licence
+## License
 
 All code and content within this source-code repository is licensed under the [**Creative Commons Zero v1.0 Universal** license (CC0 1.0 Universal; Public Domain Dedication)](LICENSE.md).
 
-You can copy, modify, distribute and perform this work, even for commercial purposes, all without asking permission.
+You can copy, modify, distribute, and perform this work, even for commercial purposes, all without asking permission.
 
 For more information, refer to these following links:
 

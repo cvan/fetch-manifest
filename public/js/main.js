@@ -1,3 +1,5 @@
+/* global FontFace */
+
 (function () {
   function loadFonts () {
     var fonts = {
@@ -16,7 +18,7 @@
       'franklin_gothic_fsdemi_italic': {
         'woff2': 'fonts/franklingothic-demiit-webfont.woff2',
         'woff': 'fonts/franklingothic-demiit-webfont.woff'
-      },
+      }
     };
 
     var fontsLoaded = Object.keys(fonts).map(function (fontName) {

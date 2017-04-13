@@ -1,0 +1,870 @@
+
+{
+  "audio/3gpp": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "3gpp"
+    ]
+  },
+  "audio/adpcm": {
+    "source": "apache",
+    "extensions": [
+      "adp"
+    ]
+  },
+  "audio/basic": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "au",
+      "snd"
+    ]
+  },
+  "audio/midi": {
+    "source": "apache",
+    "extensions": [
+      "mid",
+      "midi",
+      "kar",
+      "rmi"
+    ]
+  },
+  "audio/mp3": {
+    "compressible": false,
+    "extensions": [
+      "mp3"
+    ]
+  },
+  "audio/mp4": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "m4a",
+      "mp4a"
+    ]
+  },
+  "audio/mpeg": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "mpga",
+      "mp2",
+      "mp2a",
+      "mp3",
+      "m2a",
+      "m3a"
+    ]
+  },
+  "audio/ogg": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "oga",
+      "ogg",
+      "spx"
+    ]
+  },
+  "audio/s3m": {
+    "source": "apache",
+    "extensions": [
+      "s3m"
+    ]
+  },
+  "audio/silk": {
+    "source": "apache",
+    "extensions": [
+      "sil"
+    ]
+  },
+  "audio/vnd.dece.audio": {
+    "source": "iana",
+    "extensions": [
+      "uva",
+      "uvva"
+    ]
+  },
+  "audio/vnd.digital-winds": {
+    "source": "iana",
+    "extensions": [
+      "eol"
+    ]
+  },
+  "audio/vnd.dra": {
+    "source": "iana",
+    "extensions": [
+      "dra"
+    ]
+  },
+  "audio/vnd.dts": {
+    "source": "iana",
+    "extensions": [
+      "dts"
+    ]
+  },
+  "audio/vnd.dts.hd": {
+    "source": "iana",
+    "extensions": [
+      "dtshd"
+    ]
+  },
+  "audio/vnd.lucent.voice": {
+    "source": "iana",
+    "extensions": [
+      "lvp"
+    ]
+  },
+  "audio/vnd.ms-playready.media.pya": {
+    "source": "iana",
+    "extensions": [
+      "pya"
+    ]
+  },
+  "audio/vnd.nuera.ecelp4800": {
+    "source": "iana",
+    "extensions": [
+      "ecelp4800"
+    ]
+  },
+  "audio/vnd.nuera.ecelp7470": {
+    "source": "iana",
+    "extensions": [
+      "ecelp7470"
+    ]
+  },
+  "audio/vnd.nuera.ecelp9600": {
+    "source": "iana",
+    "extensions": [
+      "ecelp9600"
+    ]
+  },
+  "audio/vnd.rip": {
+    "source": "iana",
+    "extensions": [
+      "rip"
+    ]
+  },
+  "audio/wav": {
+    "compressible": false,
+    "extensions": [
+      "wav"
+    ]
+  },
+  "audio/wave": {
+    "compressible": false,
+    "extensions": [
+      "wav"
+    ]
+  },
+  "audio/webm": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "weba"
+    ]
+  },
+  "audio/x-aac": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "aac"
+    ]
+  },
+  "audio/x-aiff": {
+    "source": "apache",
+    "extensions": [
+      "aif",
+      "aiff",
+      "aifc"
+    ]
+  },
+  "audio/x-caf": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "caf"
+    ]
+  },
+  "audio/x-flac": {
+    "source": "apache",
+    "extensions": [
+      "flac"
+    ]
+  },
+  "audio/x-m4a": {
+    "source": "nginx",
+    "extensions": [
+      "m4a"
+    ]
+  },
+  "audio/x-matroska": {
+    "source": "apache",
+    "extensions": [
+      "mka"
+    ]
+  },
+  "audio/x-mpegurl": {
+    "source": "apache",
+    "extensions": [
+      "m3u"
+    ]
+  },
+  "audio/x-ms-wax": {
+    "source": "apache",
+    "extensions": [
+      "wax"
+    ]
+  },
+  "audio/x-ms-wma": {
+    "source": "apache",
+    "extensions": [
+      "wma"
+    ]
+  },
+  "audio/x-pn-realaudio": {
+    "source": "apache",
+    "extensions": [
+      "ram",
+      "ra"
+    ]
+  },
+  "audio/x-pn-realaudio-plugin": {
+    "source": "apache",
+    "extensions": [
+      "rmp"
+    ]
+  },
+  "audio/x-realaudio": {
+    "source": "nginx",
+    "extensions": [
+      "ra"
+    ]
+  },
+  "audio/x-wav": {
+    "source": "apache",
+    "extensions": [
+      "wav"
+    ]
+  },
+  "audio/xm": {
+    "source": "apache",
+    "extensions": [
+      "xm"
+    ]
+  },
+  "image/apng": {
+    "compressible": false,
+    "extensions": [
+      "apng"
+    ]
+  },
+  "image/bmp": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": [
+      "bmp"
+    ]
+  },
+  "image/cgm": {
+    "source": "iana",
+    "extensions": [
+      "cgm"
+    ]
+  },
+  "image/g3fax": {
+    "source": "iana",
+    "extensions": [
+      "g3"
+    ]
+  },
+  "image/gif": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "gif"
+    ]
+  },
+  "image/ief": {
+    "source": "iana",
+    "extensions": [
+      "ief"
+    ]
+  },
+  "image/jpeg": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "jpeg",
+      "jpg",
+      "jpe"
+    ]
+  },
+  "image/ktx": {
+    "source": "iana",
+    "extensions": [
+      "ktx"
+    ]
+  },
+  "image/png": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "png"
+    ]
+  },
+  "image/prs.btif": {
+    "source": "iana",
+    "extensions": [
+      "btif"
+    ]
+  },
+  "image/sgi": {
+    "source": "apache",
+    "extensions": [
+      "sgi"
+    ]
+  },
+  "image/svg+xml": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": [
+      "svg",
+      "svgz"
+    ]
+  },
+  "image/tiff": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": [
+      "tiff",
+      "tif"
+    ]
+  },
+  "image/vnd.adobe.photoshop": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": [
+      "psd"
+    ]
+  },
+  "image/vnd.dece.graphic": {
+    "source": "iana",
+    "extensions": [
+      "uvi",
+      "uvvi",
+      "uvg",
+      "uvvg"
+    ]
+  },
+  "image/vnd.djvu": {
+    "source": "iana",
+    "extensions": [
+      "djvu",
+      "djv"
+    ]
+  },
+  "image/vnd.dvb.subtitle": {
+    "source": "iana",
+    "extensions": [
+      "sub"
+    ]
+  },
+  "image/vnd.dwg": {
+    "source": "iana",
+    "extensions": [
+      "dwg"
+    ]
+  },
+  "image/vnd.dxf": {
+    "source": "iana",
+    "extensions": [
+      "dxf"
+    ]
+  },
+  "image/vnd.fastbidsheet": {
+    "source": "iana",
+    "extensions": [
+      "fbs"
+    ]
+  },
+  "image/vnd.fpx": {
+    "source": "iana",
+    "extensions": [
+      "fpx"
+    ]
+  },
+  "image/vnd.fst": {
+    "source": "iana",
+    "extensions": [
+      "fst"
+    ]
+  },
+  "image/vnd.fujixerox.edmics-mmr": {
+    "source": "iana",
+    "extensions": [
+      "mmr"
+    ]
+  },
+  "image/vnd.fujixerox.edmics-rlc": {
+    "source": "iana",
+    "extensions": [
+      "rlc"
+    ]
+  },
+  "image/vnd.ms-modi": {
+    "source": "iana",
+    "extensions": [
+      "mdi"
+    ]
+  },
+  "image/vnd.ms-photo": {
+    "source": "apache",
+    "extensions": [
+      "wdp"
+    ]
+  },
+  "image/vnd.net-fpx": {
+    "source": "iana",
+    "extensions": [
+      "npx"
+    ]
+  },
+  "image/vnd.wap.wbmp": {
+    "source": "iana",
+    "extensions": [
+      "wbmp"
+    ]
+  },
+  "image/vnd.xiff": {
+    "source": "iana",
+    "extensions": [
+      "xif"
+    ]
+  },
+  "image/webp": {
+    "source": "apache",
+    "extensions": [
+      "webp"
+    ]
+  },
+  "image/x-3ds": {
+    "source": "apache",
+    "extensions": [
+      "3ds"
+    ]
+  },
+  "image/x-cmu-raster": {
+    "source": "apache",
+    "extensions": [
+      "ras"
+    ]
+  },
+  "image/x-cmx": {
+    "source": "apache",
+    "extensions": [
+      "cmx"
+    ]
+  },
+  "image/x-freehand": {
+    "source": "apache",
+    "extensions": [
+      "fh",
+      "fhc",
+      "fh4",
+      "fh5",
+      "fh7"
+    ]
+  },
+  "image/x-icon": {
+    "source": "apache",
+    "compressible": true,
+    "extensions": [
+      "ico"
+    ]
+  },
+  "image/x-jng": {
+    "source": "nginx",
+    "extensions": [
+      "jng"
+    ]
+  },
+  "image/x-mrsid-image": {
+    "source": "apache",
+    "extensions": [
+      "sid"
+    ]
+  },
+  "image/x-ms-bmp": {
+    "source": "nginx",
+    "compressible": true,
+    "extensions": [
+      "bmp"
+    ]
+  },
+  "image/x-pcx": {
+    "source": "apache",
+    "extensions": [
+      "pcx"
+    ]
+  },
+  "image/x-pict": {
+    "source": "apache",
+    "extensions": [
+      "pic",
+      "pct"
+    ]
+  },
+  "image/x-portable-anymap": {
+    "source": "apache",
+    "extensions": [
+      "pnm"
+    ]
+  },
+  "image/x-portable-bitmap": {
+    "source": "apache",
+    "extensions": [
+      "pbm"
+    ]
+  },
+  "image/x-portable-graymap": {
+    "source": "apache",
+    "extensions": [
+      "pgm"
+    ]
+  },
+  "image/x-portable-pixmap": {
+    "source": "apache",
+    "extensions": [
+      "ppm"
+    ]
+  },
+  "image/x-rgb": {
+    "source": "apache",
+    "extensions": [
+      "rgb"
+    ]
+  },
+  "image/x-tga": {
+    "source": "apache",
+    "extensions": [
+      "tga"
+    ]
+  },
+  "image/x-xbitmap": {
+    "source": "apache",
+    "extensions": [
+      "xbm"
+    ]
+  },
+  "image/x-xpixmap": {
+    "source": "apache",
+    "extensions": [
+      "xpm"
+    ]
+  },
+  "image/x-xwindowdump": {
+    "source": "apache",
+    "extensions": [
+      "xwd"
+    ]
+  },
+  "video/3gpp": {
+    "source": "apache",
+    "extensions": [
+      "3gp",
+      "3gpp"
+    ]
+  },
+  "video/3gpp2": {
+    "source": "apache",
+    "extensions": [
+      "3g2"
+    ]
+  },
+  "video/h261": {
+    "source": "apache",
+    "extensions": [
+      "h261"
+    ]
+  },
+  "video/h263": {
+    "source": "apache",
+    "extensions": [
+      "h263"
+    ]
+  },
+  "video/h264": {
+    "source": "apache",
+    "extensions": [
+      "h264"
+    ]
+  },
+  "video/jpeg": {
+    "source": "apache",
+    "extensions": [
+      "jpgv"
+    ]
+  },
+  "video/jpm": {
+    "source": "apache",
+    "extensions": [
+      "jpm",
+      "jpgm"
+    ]
+  },
+  "video/mj2": {
+    "source": "apache",
+    "extensions": [
+      "mj2",
+      "mjp2"
+    ]
+  },
+  "video/mp2t": {
+    "source": "apache",
+    "extensions": [
+      "ts"
+    ]
+  },
+  "video/mp4": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "mp4",
+      "mp4v",
+      "mpg4"
+    ]
+  },
+  "video/mpeg": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "mpeg",
+      "mpg",
+      "mpe",
+      "m1v",
+      "m2v"
+    ]
+  },
+  "video/ogg": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "ogv"
+    ]
+  },
+  "video/quicktime": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "qt",
+      "mov"
+    ]
+  },
+  "video/vnd.dece.hd": {
+    "source": "apache",
+    "extensions": [
+      "uvh",
+      "uvvh"
+    ]
+  },
+  "video/vnd.dece.mobile": {
+    "source": "apache",
+    "extensions": [
+      "uvm",
+      "uvvm"
+    ]
+  },
+  "video/vnd.dece.pd": {
+    "source": "apache",
+    "extensions": [
+      "uvp",
+      "uvvp"
+    ]
+  },
+  "video/vnd.dece.sd": {
+    "source": "apache",
+    "extensions": [
+      "uvs",
+      "uvvs"
+    ]
+  },
+  "video/vnd.dece.video": {
+    "source": "apache",
+    "extensions": [
+      "uvv",
+      "uvvv"
+    ]
+  },
+  "video/vnd.dvb.file": {
+    "source": "apache",
+    "extensions": [
+      "dvb"
+    ]
+  },
+  "video/vnd.fvt": {
+    "source": "apache",
+    "extensions": [
+      "fvt"
+    ]
+  },
+  "video/vnd.mpegurl": {
+    "source": "apache",
+    "extensions": [
+      "mxu",
+      "m4u"
+    ]
+  },
+  "video/vnd.ms-playready.media.pyv": {
+    "source": "apache",
+    "extensions": [
+      "pyv"
+    ]
+  },
+  "video/vnd.uvvu.mp4": {
+    "source": "apache",
+    "extensions": [
+      "uvu",
+      "uvvu"
+    ]
+  },
+  "video/vnd.vivo": {
+    "source": "apache",
+    "extensions": [
+      "viv"
+    ]
+  },
+  "video/webm": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "webm"
+    ]
+  },
+  "video/x-f4v": {
+    "source": "apache",
+    "extensions": [
+      "f4v"
+    ]
+  },
+  "video/x-fli": {
+    "source": "apache",
+    "extensions": [
+      "fli"
+    ]
+  },
+  "video/x-flv": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "flv"
+    ]
+  },
+  "video/x-m4v": {
+    "source": "apache",
+    "extensions": [
+      "m4v"
+    ]
+  },
+  "video/x-matroska": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "mkv",
+      "mk3d",
+      "mks"
+    ]
+  },
+  "video/x-mng": {
+    "source": "apache",
+    "extensions": [
+      "mng"
+    ]
+  },
+  "video/x-ms-asf": {
+    "source": "apache",
+    "extensions": [
+      "asf",
+      "asx"
+    ]
+  },
+  "video/x-ms-vob": {
+    "source": "apache",
+    "extensions": [
+      "vob"
+    ]
+  },
+  "video/x-ms-wm": {
+    "source": "apache",
+    "extensions": [
+      "wm"
+    ]
+  },
+  "video/x-ms-wmv": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": [
+      "wmv"
+    ]
+  },
+  "video/x-ms-wmx": {
+    "source": "apache",
+    "extensions": [
+      "wmx"
+    ]
+  },
+  "video/x-ms-wvx": {
+    "source": "apache",
+    "extensions": [
+      "wvx"
+    ]
+  },
+  "video/x-msvideo": {
+    "source": "apache",
+    "extensions": [
+      "avi"
+    ]
+  },
+  "video/x-sgi-movie": {
+    "source": "apache",
+    "extensions": [
+      "movie"
+    ]
+  },
+  "video/x-smv": {
+    "source": "apache",
+    "extensions": [
+      "smv"
+    ]
+  },
+  "model/gltf+json": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": [
+      "gltf"
+    ]
+  },
+  "application/manifest+json": {
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": [
+      "webmanifest"
+    ]
+  },
+  "application/json": {
+    "source": "iana",
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": [
+      "json",
+      "map"
+    ]
+  },
+  "application/javascript": {
+    "source": "iana",
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": [
+      "js"
+    ]
+  }
+}

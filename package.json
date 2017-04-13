@@ -24,6 +24,7 @@
     "hapi": "^16.1.0",
     "inert": "^4.1.0",
     "joi": "^10.3.1",
+    "recrawler-spa": "^3.0.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.0"
   },
